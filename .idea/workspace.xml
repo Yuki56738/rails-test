@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbe5f9ce-2bad-47e9-b105-98298bb3f2a3" name="変更" comment="" />
+    <list default="true" id="dbe5f9ce-2bad-47e9-b105-98298bb3f2a3" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/articles/show.htdm.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -297,7 +302,8 @@
       <workItem from="1706525994060" duration="1901000" />
       <workItem from="1706527901037" duration="647000" />
       <workItem from="1706528653091" duration="723000" />
-      <workItem from="1706529622267" duration="1747000" />
+      <workItem from="1706529622267" duration="2452000" />
+      <workItem from="1706536163849" duration="380000" />
     </task>
     <servers />
   </component>
@@ -305,6 +311,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/blog@blog.rcov" NAME="blog のカバレッジ結果" MODIFIED="1706532362058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/blog@blog.rcov" NAME="blog のカバレッジ結果" MODIFIED="1706536319053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="blog" />
   </component>
 </project>
