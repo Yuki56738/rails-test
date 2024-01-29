@@ -1,2 +1,9 @@
 <h1><%=@articles.title %></h1>
 <p><%=@articles.body %></p>
+
+<ul>
+  <li><%= link_to "Destroy", article_path(@articles), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Are you sure?"
+  } %></li>
+</ul>
