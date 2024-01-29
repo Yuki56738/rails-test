@@ -2,10 +2,14 @@
 
 <ul>
   <% @articles.each do |article| %>
+    <% unless article.archived?%>
+<!--      <li>-->
+        <%#= link_to article.title, article %>
+<!--      </li>-->
   <li>
     <%= link_to article.title, article %>
   </li>
-
+  <%end %>
   <% end %>
 </ul>
 
